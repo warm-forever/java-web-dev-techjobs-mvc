@@ -203,6 +203,11 @@ public class JobData {
         }
     }
 
+    public static String getAllJobs() {
+        String str = "All Jobs";
+        return str;
+    }
+
     public static ArrayList<Employer> getAllEmployers() {
         loadData();
         allEmployers.sort(new NameSorter());
